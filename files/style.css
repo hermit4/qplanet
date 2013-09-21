@@ -1,0 +1,182 @@
+/* CSS for Qt Project Rawdog */
+
+* { box-sizing: border-box; -moz-box-sizing: border-box; } /* Gives a more flexible and natural box model to all elements. The standard is "content-box". Read more here: http://paulirish.com/2012/box-sizing-border-box-ftw/ */
+
+body{
+	background-repeat: repeat-x;
+	background-color: #EEEEEE;
+	font-size: 13px
+	line-height: 15px;
+	margin: 0px;
+	padding: 0px;
+}
+
+a {
+    color: #44a51c;
+    text-decoration: none;
+}
+
+.clearfix {
+  clear: both;
+  height: 1px;
+  visibility: hidden;
+}
+
+.top-line {
+    border-style:solid;
+    border-width:1px;
+
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 0 0 20px #cdcdcd;
+    padding-top:    10px;
+    padding-bottom: 10px;
+    clear: both;
+    margin-bottom: 40px;
+}
+
+.top-line .wrapper {
+    display: block;
+    border-style:none;
+    border-width:1px;
+    max-width: 1010px;
+    margin: auto;
+}
+
+.top-line img {
+    float: left;
+    margin-left : 0px;
+    margin-right: 12px;
+}
+
+.top-line h1 {
+    display: block;
+    padding-top: 1px;
+    margin-bottom: 13px;
+    color: #44a51c;
+    font-size: 23px;
+}
+
+.top-line nav ul{
+	margin: 0px;
+	padding: 0px;
+	height: 20px;
+}
+.top-line nav ul li{
+	float: left;
+	list-style-type: none;
+}
+
+.top-line nav ul li a{
+	line-height: 20px;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	font-size: 14px;
+	color: #404044;
+	text-transform: capitalize;
+	font-weight: 600;
+	margin-right: 35px;
+}
+.top-line nav ul li a:hover{
+	text-decoration:none;
+	color: #44a51c !important;
+}
+
+div.contents  {
+	max-width: 1010px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-o-border-radius: 10px;
+       background: #fff url('./content-meteor.png') right 14px no-repeat;
+	background-size: 29%;
+	box-shadow: 0 0 10px #cdcdcd;	
+	padding: 11px 52px;
+	clear: both;
+	margin: 0 auto 20px;
+}
+
+.contents .articles {
+	width: 65%;
+	float: left;
+}
+
+.contents .articles section.date {
+    position: relative;
+    border-bottom: 1px solid #E8E8E8;
+}
+.contents .articles section.date h2{
+    display: block;
+    font-size: 1.5em;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+.contents .articles section.date h2 time {
+    position: absolute;
+    top: 0;
+    left: -74px;
+    width: 58px;
+    height: 63px;
+    background: url('./date.png') left top no-repeat;
+    padding: 17px 0 0 0;
+    text-transform: uppercase;
+    line-height: 1.1em;
+    text-align: center;
+    color: #aeaaa7;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+section.date h2 time span.day {
+    display: block;
+    font-size: 11.08px;
+    font-weight: normal;
+}
+
+.contents .articles article {
+    position: relative;
+    border-bottom: 1px solid #E8E8E8;
+    padding-bottom: 1em;
+}
+
+.contents .articles article h3.title {
+    font-size: 1.4em;
+    font-weight: bold;
+    line-height: 1.2em;
+}
+
+.contents .articles article h4 {
+    font-size: 13px;
+    color: #7c7c7c;
+    margin-top: -1.8em;
+    padding-top: 12px;
+}
+
+.contents aside.about {
+	width: 30%;
+	float: right;
+	margin-top: 288px;
+	border-left: 1px solid #e8e8e8;
+	padding-left: 2.5%;
+	font-size: 14px;
+}
+
+.bottom-line {
+    clear:both;
+    background-color: #000000;
+    width:100%;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 13px;
+    height:40px;
+}
+
+.bottom-line p {
+    max-width: 990px;
+    margin-left: auto;
+    margin-right: auto;
+}

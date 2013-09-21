@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<regist>
+    <blog>
+        <feed href="http://relog.xii.jp/atom-qt.xml" />
+        <author>Iori Ayane</author>
+    </blog>
+    <blog>
+        <feed href="http://qt-labs.jp/feed" />
+        <author>Takumi Asaki</author>
+    </blog>
+    <blog>
+        <feed href="http://qt5.jp/rss.qml" />
+        <author>Tasuku Suzuki</author>
+    </blog>
+    <blog>
+        <feed href="http://blog.hermit4.info/feeds/posts/default/-/Qt" />
+        <author>hermit4</author>
+    </blog>
+    <blog>
+        <feed href="http://emblog-qt.hatenablog.jp/rss" />
+        <author>sazus</author>
+    </blog>
+</regist>

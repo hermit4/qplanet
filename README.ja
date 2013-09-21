@@ -1,0 +1,7 @@
+qplanet について
+
+qplanet は、http://planet.qt-users.jp/ 生成用のpython scriptを置き換えたいとの野望を元に実装中のFeed Aggregatorです。
+
+regist.xml に登録されたAtom1.0, RSS 1.0, RSS 2.0を収集し、staticなWeb Pageを生成することを目的としています。
+
+HTML用の画像は、本家の http://planet.qt-project.org/ のものを流用しています。
